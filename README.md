@@ -1,0 +1,2 @@
+# WeChatDemo
+基于MonkeyDev和其他大神开发的非越狱微信插件，实现了可运行在自己手机上的一个demo
