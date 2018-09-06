@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6296745501A630E0BAFC9EE7 /* Pods_HAHAHDylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE96FF0BC5955368612B447 /* Pods_HAHAHDylib.framework */; };
+		F784F9B221394EC100D790D4 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = F784F9B121394EC100D790D4 /* MDConfig.plist */; };
+		F784F9BC21394EC100D790D4 /* libHAHAHDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F784F9BB21394EC100D790D4 /* libHAHAHDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F784F9C121394EC100D790D4 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F784F9C021394EC100D790D4 /* JavaScriptCore.framework */; };
+		F784F9C321394EC100D790D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F784F9C221394EC100D790D4 /* Foundation.framework */; };
+		F784F9C521394EC100D790D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F784F9C421394EC100D790D4 /* UIKit.framework */; };
+		F784F9CA21394EC100D790D4 /* HAHAHDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = F784F9C921394EC100D790D4 /* HAHAHDylib.mm */; };
+		F784F9CD21394EC100D790D4 /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F784F9CC21394EC100D790D4 /* MDConfigManager.h */; };
+		F784F9CF21394EC100D790D4 /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F784F9CE21394EC100D790D4 /* MDConfigManager.m */; };
+		F784F9D121394EC100D790D4 /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F784F9D021394EC100D790D4 /* MDCycriptManager.h */; };
+		F784F9D321394EC100D790D4 /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F784F9D221394EC100D790D4 /* MDCycriptManager.m */; };
+		F784F9D521394EC100D790D4 /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = F784F9D421394EC100D790D4 /* MDMethodTrace.h */; };
+		F784F9D721394EC100D790D4 /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = F784F9D621394EC100D790D4 /* MDMethodTrace.m */; };
+		F784F9D921394EC100D790D4 /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F784F9D821394EC100D790D4 /* ANYMethodLog.h */; };
+		F784F9DB21394EC100D790D4 /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F784F9DA21394EC100D790D4 /* ANYMethodLog.m */; };
+		F784F9DE21394EC100D790D4 /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = F784F9DD21394EC100D790D4 /* LLDBTools.h */; };
+		F784F9E021394EC100D790D4 /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = F784F9DF21394EC100D790D4 /* LLDBTools.mm */; };
+		F784F9E521394EC100D790D4 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = F784F9E421394EC100D790D4 /* AntiAntiDebug.m */; };
+		F784F9E821394EC100D790D4 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = F784F9E721394EC100D790D4 /* fishhook.c */; };
+		F784F9EA21394EC100D790D4 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = F784F9E921394EC100D790D4 /* fishhook.h */; };
+		F784F9EC21394EC100D790D4 /* HAHAHDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = F784F9EB21394EC100D790D4 /* HAHAHDylib.h */; };
+		F784F9EE21394EC100D790D4 /* HAHAHDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = F784F9ED21394EC100D790D4 /* HAHAHDylib.m */; };
+		F784F9F821394EE300D790D4 /* Target.ipa in Resources */ = {isa = PBXBuildFile; fileRef = F784F9F721394EE300D790D4 /* Target.ipa */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F784F9BD21394EC100D790D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F784F99E21394EC100D790D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F784F9BA21394EC100D790D4;
+			remoteInfo = HAHAHDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F784F9A621394EC100D790D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F784F9BC21394EC100D790D4 /* libHAHAHDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09717497BBE8F9B17610149D /* Pods-HAHAHDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAHAHDylib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HAHAHDylib/Pods-HAHAHDylib.debug.xcconfig"; sourceTree = "<group>"; };
+		5A63887D04E30CB1AFC69971 /* Pods-HAHAHDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAHAHDylib.release.xcconfig"; path = "Pods/Target Support Files/Pods-HAHAHDylib/Pods-HAHAHDylib.release.xcconfig"; sourceTree = "<group>"; };
+		74B457C013946E1DB4D647CB /* Pods_HAHAH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAHAH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE96FF0BC5955368612B447 /* Pods_HAHAHDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAHAHDylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F784F9A921394EC100D790D4 /* HAHAH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HAHAH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F784F9AC21394EC100D790D4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F784F9AD21394EC100D790D4 /* Target.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Target.plist; sourceTree = "<group>"; };
+		F784F9AF21394EC100D790D4 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		F784F9B121394EC100D790D4 /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MDConfig.plist; path = Config/MDConfig.plist; sourceTree = "<group>"; };
+		F784F9B421394EC100D790D4 /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		F784F9B521394EC100D790D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F784F9BB21394EC100D790D4 /* libHAHAHDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libHAHAHDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F784F9C021394EC100D790D4 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F784F9C221394EC100D790D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F784F9C421394EC100D790D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F784F9C821394EC100D790D4 /* HAHAHDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = HAHAHDylib.xm; path = Logos/HAHAHDylib.xm; sourceTree = "<group>"; };
+		F784F9C921394EC100D790D4 /* HAHAHDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = HAHAHDylib.mm; path = Logos/HAHAHDylib.mm; sourceTree = "<group>"; };
+		F784F9CC21394EC100D790D4 /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDConfigManager.h; path = Config/MDConfigManager.h; sourceTree = "<group>"; };
+		F784F9CE21394EC100D790D4 /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDConfigManager.m; path = Config/MDConfigManager.m; sourceTree = "<group>"; };
+		F784F9D021394EC100D790D4 /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDCycriptManager.h; path = Config/MDCycriptManager.h; sourceTree = "<group>"; };
+		F784F9D221394EC100D790D4 /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDCycriptManager.m; path = Config/MDCycriptManager.m; sourceTree = "<group>"; };
+		F784F9D421394EC100D790D4 /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDMethodTrace.h; path = Config/MDMethodTrace.h; sourceTree = "<group>"; };
+		F784F9D621394EC100D790D4 /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDMethodTrace.m; path = Config/MDMethodTrace.m; sourceTree = "<group>"; };
+		F784F9D821394EC100D790D4 /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = Config/ANYMethodLog.h; sourceTree = "<group>"; };
+		F784F9DA21394EC100D790D4 /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = Config/ANYMethodLog.m; sourceTree = "<group>"; };
+		F784F9DD21394EC100D790D4 /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		F784F9DF21394EC100D790D4 /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		F784F9E221394EC100D790D4 /* HAHAHDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HAHAHDylib-Prefix.pch"; sourceTree = "<group>"; };
+		F784F9E421394EC100D790D4 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		F784F9E721394EC100D790D4 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		F784F9E921394EC100D790D4 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		F784F9EB21394EC100D790D4 /* HAHAHDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAHAHDylib.h; sourceTree = "<group>"; };
+		F784F9ED21394EC100D790D4 /* HAHAHDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAHAHDylib.m; sourceTree = "<group>"; };
+		F784F9F721394EE300D790D4 /* Target.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = Target.ipa; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F784F9A321394EC100D790D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F784F9B821394EC100D790D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F784F9C121394EC100D790D4 /* JavaScriptCore.framework in Frameworks */,
+				F784F9C521394EC100D790D4 /* UIKit.framework in Frameworks */,
+				F784F9C321394EC100D790D4 /* Foundation.framework in Frameworks */,
+				6296745501A630E0BAFC9EE7 /* Pods_HAHAHDylib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CF0037DB5AAEC948A45782C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09717497BBE8F9B17610149D /* Pods-HAHAHDylib.debug.xcconfig */,
+				5A63887D04E30CB1AFC69971 /* Pods-HAHAHDylib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F784F99D21394EC100D790D4 = {
+			isa = PBXGroup;
+			children = (
+				F784F9AB21394EC100D790D4 /* HAHAH */,
+				F784F9C621394EC100D790D4 /* HAHAHDylib */,
+				F784F9BF21394EC100D790D4 /* Frameworks */,
+				F784F9AA21394EC100D790D4 /* Products */,
+				8CF0037DB5AAEC948A45782C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F784F9AA21394EC100D790D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F784F9A921394EC100D790D4 /* HAHAH.app */,
+				F784F9BB21394EC100D790D4 /* libHAHAHDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F784F9AB21394EC100D790D4 /* HAHAH */ = {
+			isa = PBXGroup;
+			children = (
+				F784F9AC21394EC100D790D4 /* icon.png */,
+				F784F9AD21394EC100D790D4 /* Target.plist */,
+				F784F9B521394EC100D790D4 /* Info.plist */,
+				F784F9AE21394EC100D790D4 /* Scripts */,
+				F784F9B021394EC100D790D4 /* Config */,
+				F784F9B321394EC100D790D4 /* TargetApp */,
+			);
+			path = HAHAH;
+			sourceTree = "<group>";
+		};
+		F784F9AE21394EC100D790D4 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				F784F9AF21394EC100D790D4 /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		F784F9B021394EC100D790D4 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F784F9B121394EC100D790D4 /* MDConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		F784F9B321394EC100D790D4 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				F784F9F721394EE300D790D4 /* Target.ipa */,
+				F784F9B421394EC100D790D4 /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		F784F9BF21394EC100D790D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F784F9C021394EC100D790D4 /* JavaScriptCore.framework */,
+				F784F9C221394EC100D790D4 /* Foundation.framework */,
+				F784F9C421394EC100D790D4 /* UIKit.framework */,
+				74B457C013946E1DB4D647CB /* Pods_HAHAH.framework */,
+				8CE96FF0BC5955368612B447 /* Pods_HAHAHDylib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F784F9C621394EC100D790D4 /* HAHAHDylib */ = {
+			isa = PBXGroup;
+			children = (
+				F784F9EB21394EC100D790D4 /* HAHAHDylib.h */,
+				F784F9ED21394EC100D790D4 /* HAHAHDylib.m */,
+				F784F9C721394EC100D790D4 /* Logos */,
+				F784F9CB21394EC100D790D4 /* Config */,
+				F784F9DC21394EC100D790D4 /* Tools */,
+				F784F9E321394EC100D790D4 /* AntiAntiDebug */,
+				F784F9E621394EC100D790D4 /* fishhook */,
+				F784F9E121394EC100D790D4 /* Supporting Files */,
+			);
+			path = HAHAHDylib;
+			sourceTree = "<group>";
+		};
+		F784F9C721394EC100D790D4 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				F784F9C821394EC100D790D4 /* HAHAHDylib.xm */,
+				F784F9C921394EC100D790D4 /* HAHAHDylib.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		F784F9CB21394EC100D790D4 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F784F9CC21394EC100D790D4 /* MDConfigManager.h */,
+				F784F9CE21394EC100D790D4 /* MDConfigManager.m */,
+				F784F9D021394EC100D790D4 /* MDCycriptManager.h */,
+				F784F9D221394EC100D790D4 /* MDCycriptManager.m */,
+				F784F9D421394EC100D790D4 /* MDMethodTrace.h */,
+				F784F9D621394EC100D790D4 /* MDMethodTrace.m */,
+				F784F9D821394EC100D790D4 /* ANYMethodLog.h */,
+				F784F9DA21394EC100D790D4 /* ANYMethodLog.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		F784F9DC21394EC100D790D4 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F784F9DD21394EC100D790D4 /* LLDBTools.h */,
+				F784F9DF21394EC100D790D4 /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		F784F9E121394EC100D790D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F784F9E221394EC100D790D4 /* HAHAHDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F784F9E321394EC100D790D4 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				F784F9E421394EC100D790D4 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		F784F9E621394EC100D790D4 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				F784F9E721394EC100D790D4 /* fishhook.c */,
+				F784F9E921394EC100D790D4 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F784F9B921394EC100D790D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F784F9D121394EC100D790D4 /* MDCycriptManager.h in Headers */,
+				F784F9D521394EC100D790D4 /* MDMethodTrace.h in Headers */,
+				F784F9DE21394EC100D790D4 /* LLDBTools.h in Headers */,
+				F784F9EC21394EC100D790D4 /* HAHAHDylib.h in Headers */,
+				F784F9CD21394EC100D790D4 /* MDConfigManager.h in Headers */,
+				F784F9D921394EC100D790D4 /* ANYMethodLog.h in Headers */,
+				F784F9EA21394EC100D790D4 /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F784F9A821394EC100D790D4 /* HAHAH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F784F9F421394EC100D790D4 /* Build configuration list for PBXNativeTarget "HAHAH" */;
+			buildPhases = (
+				F784F9A221394EC100D790D4 /* Sources */,
+				F784F9A321394EC100D790D4 /* Frameworks */,
+				F784F9A421394EC100D790D4 /* ShellScript */,
+				F784F9A521394EC100D790D4 /* Resources */,
+				F784F9A621394EC100D790D4 /* CopyFiles */,
+				F784F9A721394EC100D790D4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F784F9BE21394EC100D790D4 /* PBXTargetDependency */,
+			);
+			name = HAHAH;
+			productName = HAHAH;
+			productReference = F784F9A921394EC100D790D4 /* HAHAH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F784F9BA21394EC100D790D4 /* HAHAHDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F784F9F121394EC100D790D4 /* Build configuration list for PBXNativeTarget "HAHAHDylib" */;
+			buildPhases = (
+				12DCBBE4B0D6EDB60882E162 /* [CP] Check Pods Manifest.lock */,
+				F784F9B621394EC100D790D4 /* ShellScript */,
+				F784F9B721394EC100D790D4 /* Sources */,
+				F784F9B821394EC100D790D4 /* Frameworks */,
+				F784F9B921394EC100D790D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HAHAHDylib;
+			productName = HAHAHDylib;
+			productReference = F784F9BB21394EC100D790D4 /* libHAHAHDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F784F99E21394EC100D790D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "童星";
+				TargetAttributes = {
+					F784F9A821394EC100D790D4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F784F9BA21394EC100D790D4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F784F9A121394EC100D790D4 /* Build configuration list for PBXProject "HAHAH" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F784F99D21394EC100D790D4;
+			productRefGroup = F784F9AA21394EC100D790D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F784F9A821394EC100D790D4 /* HAHAH */,
+				F784F9BA21394EC100D790D4 /* HAHAHDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F784F9A521394EC100D790D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F784F9B221394EC100D790D4 /* MDConfig.plist in Resources */,
+				F784F9F821394EE300D790D4 /* Target.ipa in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12DCBBE4B0D6EDB60882E162 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HAHAHDylib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F784F9A421394EC100D790D4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		F784F9A721394EC100D790D4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		F784F9B621394EC100D790D4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F784F9A221394EC100D790D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F784F9B721394EC100D790D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F784F9EE21394EC100D790D4 /* HAHAHDylib.m in Sources */,
+				F784F9D321394EC100D790D4 /* MDCycriptManager.m in Sources */,
+				F784F9DB21394EC100D790D4 /* ANYMethodLog.m in Sources */,
+				F784F9CF21394EC100D790D4 /* MDConfigManager.m in Sources */,
+				F784F9E021394EC100D790D4 /* LLDBTools.mm in Sources */,
+				F784F9CA21394EC100D790D4 /* HAHAHDylib.mm in Sources */,
+				F784F9D721394EC100D790D4 /* MDMethodTrace.m in Sources */,
+				F784F9E821394EC100D790D4 /* fishhook.c in Sources */,
+				F784F9E521394EC100D790D4 /* AntiAntiDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F784F9BE21394EC100D790D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F784F9BA21394EC100D790D4 /* HAHAHDylib */;
+			targetProxy = F784F9BD21394EC100D790D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F784F9EF21394EC100D790D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F784F9F021394EC100D790D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F784F9F221394EC100D790D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09717497BBE8F9B17610149D /* Pods-HAHAHDylib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W692395U5W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HAHAHDylib/HAHAHDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libHAHAHDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"HAHAHDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		F784F9F321394EC100D790D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A63887D04E30CB1AFC69971 /* Pods-HAHAHDylib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = W692395U5W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HAHAHDylib/HAHAHDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libHAHAHDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"HAHAHDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F784F9F521394EC100D790D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W692395U5W;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = HAHAH/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongxing.MifFit2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F784F9F621394EC100D790D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W692395U5W;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = HAHAH/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongxing.MifFit2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F784F9A121394EC100D790D4 /* Build configuration list for PBXProject "HAHAH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F784F9EF21394EC100D790D4 /* Debug */,
+				F784F9F021394EC100D790D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F784F9F121394EC100D790D4 /* Build configuration list for PBXNativeTarget "HAHAHDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F784F9F221394EC100D790D4 /* Debug */,
+				F784F9F321394EC100D790D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F784F9F421394EC100D790D4 /* Build configuration list for PBXNativeTarget "HAHAH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F784F9F521394EC100D790D4 /* Debug */,
+				F784F9F621394EC100D790D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F784F99E21394EC100D790D4 /* Project object */;
+}

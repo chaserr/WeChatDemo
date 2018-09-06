@@ -1,0 +1,6 @@
+framework module MDSettingCenter {
+  umbrella header "MDSettingCenter-umbrella.h"
+
+  export *
+  module * { export * }
+}

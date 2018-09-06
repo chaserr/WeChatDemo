@@ -1,0 +1,20 @@
+PODS:
+  - MDSettingCenter (1.1.0)
+  - WechatPod (1.8.0):
+    - MDSettingCenter
+
+DEPENDENCIES:
+  - WechatPod
+
+SPEC REPOS:
+  https://github.com/AloneMonkey/MonkeyDevSpecs.git:
+    - MDSettingCenter
+    - WechatPod
+
+SPEC CHECKSUMS:
+  MDSettingCenter: 41b910206cd1d826e11247413cd48a068d38e274
+  WechatPod: b3731a4724d9b51469c3b59bcffc5fbb337f3fbb
+
+PODFILE CHECKSUM: 73c38598b60558e6afb130ffd0a9e2dba2bd3d70
+
+COCOAPODS: 1.5.3

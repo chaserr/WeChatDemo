@@ -1,0 +1,924 @@
+
+#WhatsNew { /* what's new */
+    
+    enterbtn_bottom : 40;
+    page1_qr_b_y : 75;
+    page1_text_off_y : 40;
+    page1_text_font : 19;
+    
+    page2_head_size : 90;
+    page2_head_y : 130;
+    page2_name_font : 19;
+    page2_name_off_y : 40;
+    page2_text1_off_y : 10;
+    page2_text1_font : 19;
+}
+
+#fts_common {
+    education_image_top_margin : 40;
+    education_icon_top_margin : 18;
+    education_icon_left_margin : 25;
+    education_barbutton_top_margin : 18;
+    education_barbutton_hor_margin : 25;
+    
+    searchbar_tag_max_width : 140;
+}
+
+#search_guide {
+    sg_barbutton_top_margin : 30;
+    sg_verts_title_top_margin : 25;
+    sg_verts_title_bottom_margin_for_single_row : 20;
+    sg_verts_title_bottom_margin_for_multi_row : 15;
+    sg_verts_button_width : 80;
+    sg_verts_button_intv: 15;
+    
+    sg_msg_verts_button_width : 90;
+    
+    sg_weapp_content_width : 260;
+    sg_weapp_title_bottom_margin : 20;
+    sg_weapp_title_top_margin : 30;
+}
+
+#websearch_recommend
+{
+    vc_refresh_icon_top_margin : 86;
+}
+
+#reg_upload_addressbook_more
+{
+    detail_big_y : 15;
+    detail_small_y : 5;
+}
+
+#login_common
+{
+    nextbtn_topMargin: 18;
+    title_topMargin: 12;
+    title_bottomMargin: 26;
+    newHeaderViewTitle_topMargin: 12;
+    
+    users_logo_top: 50;
+    users_title_logo_margin: 39;
+    users_title_line_margin: 29;
+    users_head_line_top: 29;
+    users_name_font: 15;
+    users_user_margin_X: 52;
+    
+    users_cur_head_top: 100;
+    users_retry_bottom: 100;
+}
+
+#phone_verify_up
+{
+    phone_send_margin: 20;
+    num_to_margin: 17;
+    label_btn_margin: 24;
+}
+
+#login_last_user_view
+{
+    headimageview_marginTop : 88;
+    textBackViewY : 20;
+    loginbtn_topMargin: 25;
+}
+
+#WCRedEnvelopesWelcomePageViewController
+{
+    bottomSceneImageMarginBottom2017_1 : -70;
+}
+
+#WCRedEnvelopesMakeRedEnvelopesViewController
+{
+    bottomSceneImageMarginBottom2017 : 30;
+    
+    unitLabelMarginTop2017 : 26;
+    
+    moneyLabelMarginTop2017 : 25;
+    
+    makebuttonMarginMoney2017 : 10;
+    
+    moneyLabelFontSize2017 : 45;
+    unitLabelFontSize2017 : 22;
+}
+
+#online_device_info {
+    deviceViewY : 99;
+    tipsLabelYOffset : 15;
+    controlButtonsYOffset : 45;
+    containerView_YOffset : 40;
+    logOutBtnMarginDeviceViewTop: 270;
+}
+
+#WCPayTransferMoneyPaidSuccessViewV2
+{
+    WeChatPayIcon_margin_top : 55.5;
+    WeChatPayIcon_height : 34;
+    WeChatPayIcon_width : 38.5;
+    
+    successLabel_margin_top : 99.5;
+    successLabel_font_size : 13;
+    successLabel_font_color : "#1AAD19";
+    
+    tipLabel_margin_top : 66;
+    tipLabel_font_size : 13;
+    tipLabel_font_color : "#353535";
+    
+    moneyLabel_margin_top : 14;
+    moneyLabel_margin_top_on_transfer : 14;
+    moneyLabel_font_size : 37;
+    moneyLabel_font_color : "#353535";
+    
+    receiverLabel_margin_top : 38;
+    dataLabel_margin_up : 9;
+    dataLabel_margin_left : 22;
+    dataLabel_interval : 6;
+    
+    dataLabel_font_size : 14;
+    dataLabel_font_color : "#888888";
+    
+    doneButton_margin_bottom : 60;
+    doneButton_width : 139;
+    
+    head_image_size : 28;
+    head_image_margin_right : 4;
+    
+    line_view_margin_top : 21;
+    line_view_margin_top_on_transfer : 81;
+    line_view_margin_left : 22;
+    line_view_height : 0.5;
+    line_view_color : "#C7C7C7";
+    
+    chargefeeLabel_margin_up : 15;
+    
+    WeChatPayIcon_margin_top_no_lineView : 36.2;
+    successLabel_margin_up_no_lineView : 8.4;
+    moneyLabel_margin_top_no_lineView : 9.3;
+    receiverLabel_margin_up_no_lineView : 50;
+    head_image_margin_up_no_lineView : 15.77;
+    receiverValueLabel_margin_up_no_lineView : 11.2;
+}
+
+#OfflinePayView
+{
+    tip_view_top_margin : 5;
+    actionbar_top_margin : 0;
+    cardInfo_view_height : 50;
+    actionbar_content_height : 44;
+    
+    bottom_button_content_height : 45;
+    bottom_button_top_margin : 5;
+    bottom_button_elem_title_font : 12;
+    bottom_button_elem_subTitle_font : 11;
+    
+    codeview_barcode_top_margin : 10;
+    codeview_qrcode_bottom_margin : 20;
+    codeview_qrcode_top_margin : 20;
+    
+    change_card_view_bankName_font : 13;
+    change_card_view_bankDesc_font : 10;
+    change_card_view_forbidDesc_font : 12;
+}
+
+#PayOrderConfirmView
+{
+    bottom_margin_content : 0;
+    bottom_margin_line : 6;
+    bottom_margin_desc : 2;
+    bottom_margin_money : 4;
+    bottom_margin_fav : 8;
+    bottom_margin_cardinfo : 10;
+    bottom_margin_btn : 10;
+}
+
+#AvailableCardListView
+{
+    top_margin_content : 80;
+}
+
+#WCOutView {
+    /* dial pad */
+    dialPadTopMargin : 90;
+    padBtnDiameter : 90;
+    dialPadVerticalPadding : 1;
+    dialPadHorizontalPadding : 1;
+    callBtnMarginKeyPad: 8;
+    skmBtnsMarginHangupBtn: 30;
+    dialNickNameFont:17;
+    dialTimeFont:14;
+    
+    /* dial view */
+    inputArea_marginTop: 8;
+    inputArea_phoneNumber_marginBottom: -10;
+    
+    /*calling view*/
+    headImageMarginTop: 40;
+    userLabelMarginTopWhenNoHeadImage: 20;
+    faqBtnTopMargin:10;
+}
+
+#WCOutActivityView {
+    title_margin_bottom : 110;
+    title_margin_Left_right : 54;
+    title_line_hight : 32;
+    desc_margin_top : 16;
+    pic_margin_top : 30;
+    img_height_width : 110;
+    try_btn_margin_bottom : 50;
+    
+    title_font_size : 28;
+    desc_font_size : 14;
+    
+}
+
+#WCOutWhatsNewView {
+    pic_margin_top : 40;
+    pic_with_height : 200;
+    title_margin_top : 30;
+    content_margin_left_right : 30;
+    content_margin_top : 5;
+    skip_btn_margin_bottom : 30;
+    try_wco_btn_margin_bottom : 30;
+    try_wco_btn_content_margin_left_right: 30;
+    title_font_size : 15;
+    content_font_size : 20;
+    skip_font_size : 14;
+    pic_btn_first_line_margin_top : 12;
+    pic_btn_second_line_margin_top_left : 15;
+    pic_btn_call_margin_top_left : 33;
+}
+
+#WCOutShareCardView {
+    card_margin_left_top : 15;
+    cell_margin_left_top : 15;
+    second_title_margin_left : 5;
+    separate_line_top : 40;
+    price_margin_top : 15;
+    price_margin_left : 35;
+    code_margin_top : -2;
+    tips_icon_margin_left : 25;
+    share_content_margin_top : 20;
+    
+    title_font_size : 12;
+    price_font_size : 40;
+    code_font_szie:10;
+    tips_font_szie:9;
+}
+
+#MultiTalkMainViewController
+{
+    contacts_collection_view_height : 280;
+}
+
+#MultiTalkTalkingOperateView
+{
+    title_margin_top : 15;
+    title_margin_left : 15;
+    title_height : 25;
+    title_font_size : 21;
+    title_text_color : "#ffffff";
+    
+    timer_margin_left : 15;
+    timer_height : 15;
+    timer_font_size : 12;
+    timer_text_color : "#ffffff";
+    
+    minimize_button_center_margin_left : 45;
+    minimize_button_center_margin_bottom : 105;
+    
+    hangup_button_center_margin_bottom : 42;
+    hangup_button_height : 65;
+    
+    lefttop_button_width : 45;
+    lefttop_button_height : 60;
+    
+    righttop_button_width : 45;
+    righttop_button_height : 60;
+    
+    middletop_button_width : 45;
+    middletop_button_height : 60;
+
+    mute_button_image_name : "multitalkMuteModeiP4.png";
+    mute_button_hl_image_name : "multitalkMuteModeiP4HL.png";
+    mute_button_selected_image_name : "multitalkMuteModeiP4On.png";
+    
+    speaker_button_image_name : "multitalkSpeakerModeiP4.png";
+    speaker_button_hl_image_name : "multitalkSpeakerModeiP4HL.png";
+    speaker_button_selected_image_name : "multitalkSpeakerModeiP4On.png";
+    
+    video_button_image_name : "multitalkVideoiP4.png";
+    video_button_hl_image_name : "multitalkVideoiP4HL.png";
+    video_button_selected_image_name : "multitalkVideoiP4On.png";
+    
+    lefttop_button_center_margin_center : 95;
+    
+    righttop_button_center_margin_center : 95;
+}
+
+#MultiTalkBeforeTalkingOperateView
+{
+    hd_head_margin_top : 50;
+    member_view_top_offset : 30;
+    
+    hangup_button_margin_center : 50;
+    hangup_button_center_margin_bottom : 42;
+    hangup_button_height : 65;
+    
+    callDeclineBtn_image_name : "callDeclineBtniP4.png";
+    callDeclineBtn_hl_image_name : "callDeclineBtniP4HL.png";
+    callAnswerBtn_image : "callAnswerBtniP4.png";
+    callAnswerBtn_hl_image : "callAnswerBtniP4HL.png";
+}
+
+#MusicPlayerMainViewController
+{
+    shade_Gradient_height : 120;
+    
+    first_page_cover_height : 220;
+    second_page_cover_height : 120;
+    /*cover_image_offset = (first_page_cover_height-second_page_cover_height)/2 */
+    cover_image_offset : 50;
+    
+    table_view_height_to_top : 145;
+    lyrics_table_view_height : 245;
+    max_table_view_height : 245;
+    
+    music_title_above_cover_bottom : 30;
+    
+    single_lyric_height_adjust : 80;
+    music_title_view_height_adjust : 10;
+    music_title_view_height : 48;
+}
+
+#CardConsumedView
+{
+    doneIcon_TopOffset : 5;
+    doneLabel_bottom : 5;
+}
+
+#NewYearSnsFeedView
+{
+    imageview_width : 150;
+    imageview_height : 113;
+}
+
+#WCNewYearSnsRedEnvelopes
+{
+    zcs_font_width : 66;
+    yuan_font_width : 17;
+    dot_full_width : 17;
+    ad_view_padding_top : 30;
+}
+
+/*WCFestivalRedEnvReceiveHomeView*/
+#WCFestivalRedEnvReceiveHomeView
+{
+    linkLabel_font_size : 13;
+}
+
+#WCNewYearEnterpriseHBDetailView
+{
+    default_padding : 15;
+    bgView_top_margin : 52;
+    bgView_left_margin : 22;
+    
+    coverFrame_top_margin : 20;
+    coverFrame_left_margin : 12;
+    
+    headImage_top_margin : 9;
+    headImage_size : 33;
+    
+    nameLabel_font_size : 14;
+    nameLabel_top_margin : 10;
+    
+    numView_font_size : 36;
+    numView_top_margin : 19;
+    
+    moneyLabel_font_size : 11;
+    
+    tipsLabel_font_size : 12;
+    tipsLabel_top_margin : 26;
+}
+
+#WCNewYearHBDetailView
+{
+    coverFrame_top_margin : 45;
+    
+    headImage_top_margin : 9;
+    headImage_size : 40;
+    
+    numView_top_margin : 10;
+}
+
+#WifiView
+{
+    new-top-space : 50;
+    new-logo-size : 60;
+    new-notice-space : 7.5;
+    new-button-space : 25;
+    new-brand-space : 25;
+    new-button-top-space : 307.5;
+    
+    pc-brandimg-margin-top : 60;
+    pc-fail-margin-top : -110;
+    pc-confirm-button-margin-bottom : 40;
+}
+
+#WifiView
+{
+    new-top-space : 50;
+    new-logo-size : 60;
+    new-notice-space : 7.5;
+    new-button-space : 25;
+    new-brand-space : 25;
+    new-button-top-space : 307.5;
+    
+    pc-brandimg-margin-top : 60;
+    pc-fail-margin-top : -110;
+    pc-confirm-button-margin-bottom : 40;
+}
+
+#WCSnsParticipateFullScreenView
+{
+    btn_bottom_padding : 30;   
+}
+
+#ShareCardMemberCardView
+{
+    img_left_margin : 15;
+    img_top_margin_to_bar : 20;
+    img_top_margin_to_title : 20;
+    accept_top_margin_to_card : 65;
+}
+
+#chargeMobileView
+{
+    input_phone_view_height : 87;
+    function_button_height : 55;
+    function_button_mainTitle_font : 15;
+    function_button_subTitle_font : 9;
+}
+
+#WCBackupEntryView
+{
+    icon_image_content_y : 100;
+    icon_image_height : 100;
+    icon_image_width : 160;
+    icon_label_gap : 31;
+    tip_max_content_x : 25;
+    tip_tip_gap : 14;
+    green_button_height : 35;
+    grey_button_height : 17;
+    button_button_gap : 45;
+    grey_button_bottom : 24;
+    left_corner_button_y : 20;
+    left_corner_button_x : 16;
+}
+
+#WCFacingReceivePayerView {
+    actionbar_top_margin : 0;
+}
+
+#VoiceInputViewController
+{
+    fullScreenTextViewHeight: 80;
+    cancel_Button_Left_Margin: 35;
+    halfScreenPadHeight: 280;
+    textViewDefaultHeight: 130;
+}
+
+#FaceHB
+{
+    get_AvatarWidth : 60;
+    get_OpenedAvatarWidth : 50;
+    get_OpenViewWidth : 270;
+    get_OpenViewHeight : 357;
+    
+    pay_QR_Width : 140;
+    pay_QR_Border : 0;
+    pay_QR_Top_Margin : 32;
+    pay_Receive_Top_Margin : 25;
+    pay_HB_SmallWidth : 95;
+    pay_HB_BigWidth : 200;
+    pay_Btn_Bottom_Margin : 50;
+    pay_QR_Bottom_Margin : 8;
+    pay_HB_SelectY : 28;
+}
+
+#PaidNewDetailView {
+    logo_top_margin : 1;
+    logo_top_margin_min : 1;
+    logo_image_width : 38;
+    logo_image_height : 34;
+    brandLabel_top_margin : 8;
+    sellerLabel_top_margin : 30;
+    sellerLabel_top_margin_min : 30;
+    moneyLabel_top_margin : 10;
+    moneyLabel_fee_margin : 5;
+    
+    discount_content_top_margin : 9;
+    discount_content_inner_margin : 11;
+    
+    tinyApp_content_top_margin_with_discount : 10;
+    tinyApp_content_top_margin : 30;
+    tinyApp_content_height : 80;
+    tinyApp_line_leftright_margin : 27;
+    tinyApp_logo_len : 40;
+    tinyApp_small_logo_y : 1.5;
+    
+    finish_button_width : 140;
+    finish_button_bottom_margin_normal : 60;
+    finish_button_bottom_margin_with_activity : 40;
+    finish_button_bottom_margin_with_activity_subscribe : 40;
+    finish_button_top_margin_min : 40;
+    subscribe_content_top_margin : 13;
+    
+    activity_content_height : 66;
+    activity_content_leftright_margin : 12;
+    activity_content_bottom_margin : 11;
+    activity_logo_left_margin : 16;
+    activity_button_innerMargin : 22;
+    
+    brandLabel_font : 13;
+    fee_type_font : 23;
+    money_font : 37;
+    discount_content_font : 10;
+    tinyApp_name_font : 10;
+    tinyApp_desc_font : 16;
+}
+
+#MobileChargeHistoryView {
+    history_cell_height : 60;
+    history_cell_phone_font : 15;
+    history_cell_username_font : 13;
+    history_cell_content_margin : 2;
+    history_cell_padding_margin : 34;
+    history_cell_maxrow : 0;
+}
+
+#FaceRecoLogin {
+    
+    setting_icon_top : 20;
+    setting_icon_width : 95;
+    setting_icon_height : 95;
+    setting_head_margin : 10;
+    setting_icon_margin : 10;
+    setting_btn_margin : 60;
+    
+    icon_top : 80;
+    
+    result_icon_top : 80;
+    
+    frame_top : 80;
+    frame_circle_margin : 6;
+    
+    title_font : 20;
+    title_frame_margin : 22;
+    big_tips_title_left_margin : 5;
+    
+    err_tips_left_margin : 20;
+    
+    start_button_width : 144.3;
+    start_button_height : 40;
+    
+    result_close_btn_screen_gap : 60;
+}
+
+#FaceReco {
+    icon_top : 84;
+    icon_tip_margin : 20;
+    info_footer_margin : 10;
+    tip_font : 18;
+    title_top : 80;
+    title_font : 20;
+    num_title_margin : 0;
+    num_font : 90;
+    title_frame_margin : 10;
+    frame_width : 210;
+    frame_height : 280;
+    big_tips_title_left_margin : 20;
+    err_tips_left_margin : 20;
+    
+    confirm_icon_top_margin : 46;
+    confirm_icon_slogan_gap : 20;
+    confirm_slogan_footer_gap : 23;
+    confirm_slogan_font : 19;
+    confirm_btn_gap : 10;
+    rules_info_screen_bottom_gap : 5;
+    rules_tip_info_gap: 8;
+    
+    prepare_readnumber_y : 200;
+    start_button_width : 144.3;
+    start_button_height : 40;
+    start_button_prepareLabel_gap : 200;
+    
+    result_close_btn_screen_gap : 80;
+    
+    guide_step_font : 16;
+    guide_step_title_y : 90;
+    guide_step_title_numbericon_gap : 10;
+    guide_numberIcon_left_margin : 30;
+    guide_numbericon_width : 20;
+    guide_step_content_numbericon_gap : 5;
+    guide_step_content_title_gap : 20;
+    guide_step_image_content_gap : 25;
+    guide_step_face_image_width : 60;
+    guide_step_number_image_width : 100;
+    guide_step_number_image_height : 25;
+    guide_numbericons_gap : 130;
+    guide_finish_btn_bottom_gap : 20;
+    guide_finish_btn_width : 144.3;
+    guide_finish_btn_height : 40;
+    guide_title_left_margin : 10;
+}
+
+#VoipView
+{
+    warningTips_top_margin : 250;
+    warningTips_left_margin : 30;
+    warningTips_left_span : 15;
+    warningTips_font_size : 13;
+    warningTips_width : 260;
+    warningTips_height : 30;
+    warningTips_fill_color : "#E64340";
+    warningTips_font_color : "#FFFFFF";
+}
+
+#WCPayOfflineCheckTipsView
+{
+    iconImgViewTopMargin: 30;
+    tipsContentLeftMargin : 36;
+    tipsContentTopMargin : 15;
+    confirmBtnLeftMargin : 60;
+    confirmBtnTopMargin : 20;
+    
+    tipContentLabelFontSize : 13;
+}
+
+#WCPayOfflineAddNewCardTipsView
+{
+    iconImgViewTopMargin : 30;
+    tipsContentFontSize : 13;
+    tipsTitleTopMargin : 15;
+    tipsContentLeftMargin : 20;
+    addNewCardBtnLeftMargin : 60;
+    addNewCardBtnTopMargin : 20;
+    viewPayCardBtnBottomMargin : 20;
+}
+
+#OfflinePayPreConfirmView
+{
+    confirmview_icon_topMargin : 44;
+    confirmview_content_fontsize : 18;
+    confirmview_content_topMargin : 30;
+    confirmView_content_leftRight_margin : 60;
+    confirmview_btn_topMargin : 30;
+    confirmview_btn_width : 190;
+}
+
+#MMTableViewIndex
+{
+    indexViewItemHeight : 10;
+    indexRoundImageViewWidth : 10;
+    indexViewFontSize : 9;
+}
+
+#WeNoteView
+{
+    max_textview_height : 250;
+}
+
+#LQTMoneyView {
+    inputContent_cell_topMargin : 2;
+    inputContent_cell_height : 150;
+    btn_cell_height : 80;
+    btn_with_ptotocol_cell_height : 80;
+    
+    inputContent_topbar_height : 30;
+    inputContent_topbar_tips_fontSize : 10;
+    inputContent_leftRight_margin : 30;
+    inputContent_title_fontSize : 10;
+    inputContent_title_topMargin : 5;
+    inputContent_uint_fontSize : 30;
+    inputContent_money_fontSize : 50;
+    inputContent_richtextView_fontSize : 10;
+    
+    btn_cell_checkbox_len : 11;
+    btn_cell_protocol_topMargin : 5;
+    btn_cell_btn_topMargin : 20;
+    btn_cell_btn_topMargin_withProtocol : 10;
+    btn_cell_btn_height : 40;
+}
+
+#SDKOAuthView
+{
+    topMargin: 10;
+    lineTopMargin: 15;
+    lineBottomMargin: 14;
+    tableTopMargin: 7;
+    buttonTopMargin: 15;
+}
+
+#WCWebSearchViewControllerNewH5{
+    TextField_Top_Margin : 19;
+}
+
+#WCPayBizF2FPaidSuccViewController {
+    logo_top_margin : 0;
+    logo_image_width : 38;
+    logo_image_height : 34;
+    
+    brandLabel_font : 13;
+    brandLabel_top_margin : 8;
+    
+    sellerLabel_top_margin : 15;
+    fee_type_font : 23;
+    money_font : 37;
+    moneyLabel_fee_margin : 5;
+    moneyLabel_top_margin : 10;
+    
+    lineView_top_margin : 20;
+    lineView_leftRight_margin : 25;
+    
+    label_font_size : 13;
+    label_topBottom_margin : 12;
+    label_inner_margin : 4;
+    
+    finish_button_width : 140;
+    finish_button_bottom_margin_normal : 40;
+    
+    activity_content_height : 66;
+    activity_logo_len : 36;
+    activity_title_font : 12;
+    activity_content_font : 16;
+    activity_btn_font : 13;
+    activity_btn_height : 30;
+    activity_btn_innerMargin : 22;
+}
+
+#WCPayRewardViewController {
+    headImage_len : 42;
+    headImage_topMargin : 30;
+    
+    view_container_cornerRadius : 3;
+    view_leftRightMargin : 20;
+    
+    payer_detail_amount_leftrightMargin : 17;
+    payer_detail_amount_innerMargin : 10;
+    
+    editmoney_button_TopMargin : 50;
+    editmoney_amount_container_height : 45;
+    editmoney_amount_font : 14;
+    
+    confirm_money_uint_font : 23;
+    confirm_money_font : 38;
+    confirm_money_margin : 5;
+    confirm_money_continer_topMargin : 10;
+    confirm_money_btn_topMargin : 45;
+    
+    intro_view_icon_topMargin : 46;
+    intro_view_tips_leftrightMargin : 42;
+    intro_view_btn_width : 150;
+    intro_view_btn_topMargin : 40;
+    intro_view_height : 340;
+    
+    setup_view_headImg_topMargin : 10;
+    setup_view_amount_font : 14;
+    setup_view_confirm_btn_topMargin : 36;
+    setup_view_desc_container_height : 60;
+    setup_view_tips_font : 14;
+    setup_view_amount_container_height : 54;
+    
+    codeView_len : 220;
+    receiver_detail_codeview_topMargin : 30;
+    receiver_detail_desc_font : 21;
+    receiver_detail_saveBtn_topMargin : 20;
+    
+    invalid_tipsView_height : 36;
+    
+    keyboard_topMargin : 30;
+}
+
+#WCPayTransferToBankCardPaidSuccessViewController {
+    kIconMarginTop : 94;
+    kBriefViewHeight : 120;
+    kBriefViewTitleFontSize : 12;
+    kDetailLabelFontSize : 10;
+    kDetailLabelMarginGap : 10;
+}
+
+#WCPayNewPwdViewController {
+    kTitleTopMargin : 46;
+    kPasswordTextFieldGap : 52;
+    kTitleLabelFontSize : 19;
+    kDescLabelFontSize : 10;
+    kTitleDescLabelGap : 15;
+    kPwdCrtlLabelFont : 12;
+    kPwdCrtlLabelGap : 18;
+    kBiotricBtnBottomGap : 97;
+    kBiotricIconScale : 0.65;
+    kOldPasswordTextFieldGap : 33;
+}
+
+#WCPayPaidSuccessStatusViewController {
+    kIconMarginTop : 94;
+    kBriefViewHeight : 120;
+    kBriefViewTitleFontSize : 12;
+    kDetailLabelFontSize : 10;
+    kDetailLabelMarginGap : 10;
+    kDetailLabelTipsFontSize : 8;
+}
+
+#WCPayNewPwdViewController {
+    kTitleTopMargin : 46;
+    kPasswordTextFieldGap : 52;
+    kTitleLabelFontSize : 19;
+    kDescLabelFontSize : 10;
+    kTitleDescLabelGap : 15;
+}
+
+#WCPayBindCardSuccessViewController
+{
+    icon_size : 72;
+    icon_margin_up : 16;
+    icon_not_button_margin_up : 25;
+    
+    title_font_size : 20;
+    title_color : "#353535";
+    title_margin_up : 24;
+    
+    desc_font_size : 14;
+    desc_color : "#888888";
+    desc_margin_up : 15;
+    
+    topLine_color : "#E5E5E5";
+    topLine_margin_left : 35;
+    topLine_margin_up : 46;
+    topLine_height : 0.5;
+    
+    bankIcon_size : 46;
+    bankIcon_margin_left : 35;
+    bankIcon_margin_up : 20;
+    
+    bankTitle_font_size : 13;
+    bankTitle_color : "#B2B2B2";
+    bankTitle_margin_left : 14.5;
+    bankTitle_margin_up : 21;
+    
+    bankDesc_font_size : 20;
+    bankDesc_color : "#353535";
+    bankDesc_margin_left : 14.5;
+    bankDesc_margin_up : 3;
+    
+    bankButton_width : 60;
+    bankButton_margin_right : 35;
+    bankButton_margin_up : 30;
+    
+    bottomLine_color : "#E5E5E5";
+    bottomLine_margin_left : 35;
+    bottomLine_margin_up : 21;
+    bottomLine_height : 0.5;
+    
+    doneButton_width : 180;
+    doneButton_margin_up : 340;
+    doneButton_no_button_margin_up : 340;
+}
+
+#BaseWindowSize {
+    baseWidth: 320;
+    baseHeight: 480;
+}
+
+#WCPayBizF2FZeroPayConfirmView
+{
+    panelMarginUp : 20;
+}
+
+#WCPayBizF2FTransferMoneyViewController
+{
+    bannerView_MarginTop : 0;
+    bannerView_Height : 55;
+    amountTitle_MarginUp : 5;
+    textField_MarginUp : 3;
+    favorTitleMarginUp : 5;
+    favorButtonMarginUp : 3;
+    
+    favorMoneyLabelMarginUp : 5;
+    favorMoneyLabelMarginBottom : 5;
+    transferButton_MarginUp : 5;
+    commentView_MarginUp : 8;
+    commentView_marginBottom : 8;
+}
+
+#WCPayAutoDeductVC {
+    productNameTopMargin : 2;
+    sellerNameTopMargin : 4;
+    feeFont : 30;
+    feeLabelTopMargin : 10;
+    switchContentTopMargin : 20;
+    footerButtonTopMargin : 20;
+}
+
+#WCPayBalanceDetailUI
+{
+    mainLogoTopMargin : 10;
+}

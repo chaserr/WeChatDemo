@@ -1,0 +1,144 @@
+
+
+
+OpBtn()
+{
+	size 38 38;
+	push;
+/*	image "OpBtn.png" 100 200;
+	move 10 200;*/
+	clear;
+	move 1 2;
+	scale 0.34 0.30;
+	drawBtn #3f3f3f #FFFFFF #D1D1D1;
+	pop;
+}
+
+OpBigBtn()
+{
+	size 42 42;
+	push;
+/*	image "OpBigBtn.png" 100 200;
+	move 10 200;*/
+	clear;
+	scale 0.40 0.40;
+	drawBtn #3f3f3fcd #FFFFFF #D1D1D1;
+	pop;
+}
+
+OpBigBtnHighlight()
+{
+	size 42 42;
+	push;
+/*	image "OpBigBtnHighlight.png" 100 200;
+	move 10 200;*/
+	clear;
+	scale 0.40 0.40;
+	drawBtn #3f3f3fcd #D7D7D7 #A2A0A0;
+	pop;
+}
+
+RedBigBtn()
+{
+	size 42 42;
+/*	image "RedBigBtn.png" 100 200;
+	move 10 200;*/
+	push;
+	clear;
+	move 3 0;
+	scale 0.38 0.38;
+	round 0 0 100 100 20 20;
+	shadow #ffffff80 0 1 1;
+	stroke #BB322F 5;
+	fill 0 0 0 100 #F27877 #ED4B48 #A71E10 0 0.05 1;
+	pop;	
+}
+
+GreenBigBtn()
+{
+	size 42 42;
+	push;
+	clear;
+	scale 0.38 0.4;
+	move 3 3;
+	round 0 0 100 100 20 20;
+	shadow #ffffff80 0 1 1;
+	stroke #014B07 5;
+	fill 0 0 0 100 #7ECC84 #7ECC84 #57C361 #008F0B 0 0.03 0.03 1;
+	pop;
+}
+
+GreenBigBtnHighlight()
+{
+	size 42 42;
+	push;
+	clear;
+	scale 0.38 0.4;
+	move 3 3;
+	round 0 0 100 100 20 20;
+	shadow #ffffff80 0 1 1;
+	stroke #014106 5;
+	fill 0 0 0 100 #60B568 #60B568 #2A9B34 #086E11 #00740A 0 0.02 0.02 0.4 1;
+	pop;
+}
+
+GreenBtn()
+{
+	size 38 38;
+	push;
+	clear;
+	scale 0.36 0.32;
+	move 8 10;
+	round 0 0 100 100 20 20;
+	shadow #A3ADB4 0 3 2;
+	stroke #024B08 6;
+	fill 0 0 0 100 #65C86D #65C86D #57C361 #008F0B 0 0.03 0.03 1;
+	pop;
+}
+
+GreenBtnHighlight()
+{
+	size 38 38;
+	image "GreenBtnHighlight.png" 100 0;
+	push;
+	clear;
+	scale 0.36 0.32;
+	move 8 10;
+	round 0 0 100 100 20 20;
+	shadow #A3ADB4 0 2 2;
+	stroke #024207 6;
+	fill 0 0 0 100 #39A242 #39A242 #2A9B34 #00660A 0 0.03 0.03 1;
+	pop;
+}
+
+drawBtn(lineColor,fillColor1,fillColor2)
+{
+	round 0 0 100 100 20 20;
+	shadow #ffffff 0 1 1;
+	stroke lineColor 5;
+	fill fillColor1 fillColor2;
+}
+
+
+
+drawTest(width,height)
+{
+	clearAll #354b59;
+/*	clearAll #fff;*/
+	GreenBtnHighlight;
+}
+
+NewsBtn()
+{
+shadow #00000080 2 5 4;
+circle 0 0 100 100;
+stroke #fff 20 bold;
+fill 0 0 0 100 #F5B4B8 #E8555D #DD1922 #B80407 0 0.5 0.5 1;
+}
+
+clearAll(color)
+{
+rect 0,0 320,480;
+fill color;
+clear;
+}

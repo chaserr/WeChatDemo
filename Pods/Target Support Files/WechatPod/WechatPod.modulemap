@@ -1,0 +1,6 @@
+framework module WechatPod {
+  umbrella header "WechatPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page type="KitNode" key="KIT_EMOTICON" title="表情专属" version="1" resetable="yes">
+    
+    <section title="表情其他设置">
+        <item type="switch" key="KIT_EMOTICON_RECENTUSEEMOJI_IGNORE_FILE" title="最近小表情忽略文件缓存" defaultValue="NO"/>
+    </section>
+
+    <mode key="KIT_EMOTICON_GIT_PREVIEW_MODE" title="相册 GIF 预览" defaultValue="2">
+        <option title="放大到屏幕边缘"/>
+        <option title="二倍图"/>
+        <option title="一倍图"/>
+    </mode>
+
+    <section title="乱入-地址链接识别">
+        <item type="switch" key="KIT_EMOTICON_ADDRESS_PARSER" title="强行打开地址识别" defaultValue="NO"/>
+    </section>
+</page>

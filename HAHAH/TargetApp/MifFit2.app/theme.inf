@@ -1,0 +1,16 @@
+
+@theme
+{
+    tid  : "0";
+	name : "系统默认";
+	icon : "defaultTheme.png";
+	author : "weixin.qq.com";
+	discription : "系统默认";
+	website : "http://weixin.qq.com";
+	version : "1";
+
+    /* internationalization & localization */
+
+	name-zh_TW : "系統默認";
+
+}

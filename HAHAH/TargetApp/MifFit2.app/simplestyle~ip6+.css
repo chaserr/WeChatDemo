@@ -1,0 +1,28 @@
+#font_set
+{
+    alllevel : 15 16 17.5 19 21;
+    chatLevel : 15 16 17.5 19 23 26;
+}
+
+/* 主界面 */
+#mainframe_table{
+    /*主会话列表项高度*/
+    cell_height: 68;
+    
+    /*顶部offset*/
+    cell_headimg_top_margin:9;
+    /*headimg size*/
+    cell_headimg_size: 50 50;
+    /*left margin*/
+    cell_headimg_left_margin:10;
+    
+    /*   用户名fontsize */
+    cell_msglabel_textsize:17;
+    
+    cell_msglabel_top_margin:10.5;
+    cell_labelmsg_bottom_margin:10.5;
+    /*right margin*/
+    cell_timelabel_right_margin:10;
+    /*chatnotpush right margin*/
+    cell_chatnotpushimg_right_margin:10;
+}
