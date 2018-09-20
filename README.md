@@ -2,7 +2,8 @@
 
 # WeChatDemo
 基于MonkeyDev和其他大神开发的非越狱微信插件，实现了可运行在自己手机上的一个demo
-
+# dev
+电脑上已安装theos环境
 # Des
 wechat.iap_vesion:6.7.1
 
@@ -20,3 +21,4 @@ wechat.iap_vesion:6.7.1
 git lfs clone xxx #git库地址
 ```
 > 关于  Git LFS 的了解请自行gooooog
+> 电脑上没有安装theos环境的同学可以先自行安装
