@@ -22,3 +22,8 @@ git lfs clone xxx #git库地址
 ```
 > 关于  Git LFS 的了解请自行gooooog
 > 电脑上没有安装theos环境的同学可以先自行安装
+
+# Update
+2018.10.8
+由于git lfs存储量达到免费极限，可能通过以上命令无法clone下大文件，所以还是将工程文件放到网盘好了。
+链接: https://pan.baidu.com/s/1pUVOmIgHIlHlzukg31DwXg 提取码: uifp
