@@ -21,6 +21,7 @@ wechat.iap_vesion:6.7.1
 git lfs clone xxx #git库地址
 ```
 > 关于  Git LFS 的了解请自行gooooog
+
 > 电脑上没有安装theos环境的同学可以先自行安装
 
 # Update
